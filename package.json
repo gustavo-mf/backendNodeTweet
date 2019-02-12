@@ -1,0 +1,20 @@
+{
+  "name": "backendNode",
+  "version": "1.0.0",
+  "description": "Backend using an API with node.js",
+  "main": "index.js",
+  "author": "Gustavo-mf",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  }
+}
